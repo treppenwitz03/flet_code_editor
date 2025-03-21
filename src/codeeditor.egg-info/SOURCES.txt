@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/codeeditor/__init__.py
+src/codeeditor/codeeditor.py
+src/codeeditor.egg-info/PKG-INFO
+src/codeeditor.egg-info/SOURCES.txt
+src/codeeditor.egg-info/dependency_links.txt
+src/codeeditor.egg-info/requires.txt
+src/codeeditor.egg-info/top_level.txt
+src/flutter/codeeditor/CHANGELOG.md
+src/flutter/codeeditor/LICENSE
+src/flutter/codeeditor/README.md
+src/flutter/codeeditor/pubspec.yaml
+src/flutter/codeeditor/lib/codeeditor.dart
+src/flutter/codeeditor/lib/src/codeeditor.dart
+src/flutter/codeeditor/lib/src/create_control.dart
