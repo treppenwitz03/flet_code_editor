@@ -1,6 +1,6 @@
 import flet as ft
 
-from codeeditor import Codeeditor
+from codeeditor import CodeEditor, EditorTheme
 
 
 def main(page: ft.Page):
@@ -8,12 +8,12 @@ def main(page: ft.Page):
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
 
     page.add(
-
-                ft.Container(height=150, width=300, alignment = ft.alignment.center, bgcolor=ft.Colors.PURPLE_200, content=Codeeditor(
-                    tooltip="My new Codeeditor Control tooltip",
-                    value = "My new Codeeditor Flet Control", 
-                ),),
-
+        CodeEditor(
+            expand=True,
+            editor_theme=EditorTheme.DARK,
+            font_size=36,
+            gutter_width=150
+        )
     )
 
 

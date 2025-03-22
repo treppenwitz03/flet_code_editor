@@ -3,6 +3,7 @@ description: Flet Codeeditor control
 repository: https://github.com/MyGithubAccount/codeeditor/src/flutter/codeeditor
 version: 0.1.0
 homepage: https://github.com/MyGithubAccount/codeeditor
+publish_to: none
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
@@ -10,6 +11,9 @@ environment:
 
 dependencies:
   flet: 0.26.0
+  flutter_code_editor:
+    git:
+      url: https://github.com/treppenwitz03/flutter-code-editor.git
   flutter:
     sdk: flutter
 

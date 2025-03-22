@@ -10,6 +10,7 @@ src/codeeditor.egg-info/top_level.txt
 src/flutter/codeeditor/CHANGELOG.md
 src/flutter/codeeditor/LICENSE
 src/flutter/codeeditor/README.md
+src/flutter/codeeditor/pubspec.lock
 src/flutter/codeeditor/pubspec.yaml
 src/flutter/codeeditor/lib/codeeditor.dart
 src/flutter/codeeditor/lib/src/codeeditor.dart

@@ -1,1 +1,1 @@
-from codeeditor.codeeditor import Codeeditor
+from codeeditor.codeeditor import CodeEditor, EditorTheme
